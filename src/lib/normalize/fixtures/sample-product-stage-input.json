@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "jobId": "sample-job-001",
+  "source": {
+    "url": "https://store.example.com/products/insulated-bottle",
+    "kind": "shopify"
+  },
+  "product": {
+    "title": "Insulated Travel Bottle",
+    "description": "A reusable stainless-steel bottle with a double-wall body, a leak-resistant lid, and a wide mouth for easy cleaning. Designed for commuting, desk use, and weekend trips.",
+    "bullets": [
+      "Double-wall stainless-steel construction",
+      "Leak-resistant screw lid",
+      "Wide mouth for easy cleaning",
+      "Reusable everyday format",
+      "Available in three neutral colors"
+    ],
+    "pricing": {
+      "currency": "USD",
+      "listPrice": "1499",
+      "originalPrice": "0",
+      "promoPrice": "1499",
+      "promotionDetails": "Compare at 0; now 1499",
+      "promotionalSummary": "Was 0 · Now 1499 · Compare at 0; now 1499"
+    }
+  },
+  "branding": {},
+  "media": {
+    "images": [
+      {
+        "id": "img_front_a",
+        "url": "https://cdn.example.com/products/bottle-front.jpg?rev=1",
+        "fileName": "bottle-front.jpg?rev=1"
+      },
+      {
+        "id": "img_front_b",
+        "url": "https://cdn.example.com/products/bottle-front.jpg?rev=2",
+        "fileName": "bottle-front.jpg?rev=2"
+      },
+      {
+        "id": "img_lid",
+        "url": "https://cdn.example.com/products/bottle-lid.jpg?rev=1",
+        "fileName": "bottle-lid.jpg"
+      },
+      {
+        "id": "img_lifestyle",
+        "url": "https://cdn.example.com/products/bottle-lifestyle.jpg",
+        "fileName": "bottle-lifestyle.jpg"
+      },
+      {
+        "id": "img_colors",
+        "url": "https://cdn.example.com/products/bottle-colors.jpg",
+        "fileName": "bottle-colors.jpg"
+      }
+    ],
+    "videos": [],
+    "primaryImageUrl": "https://cdn.example.com/products/bottle-front.jpg?rev=1"
+  },
+  "contact": {},
+  "completeness": {
+    "readyForNextStage": true,
+    "missing": []
+  }
+}

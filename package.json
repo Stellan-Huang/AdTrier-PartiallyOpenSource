@@ -1,0 +1,25 @@
+{
+  "name": "adtrier-engine-research",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "description": "A standalone research edition of the AdTrier multimodal advertising generation engine.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "demo": "tsx examples/run-pipeline.ts",
+    "video": "tsx examples/run-video-generation.ts",
+    "test": "tsx --test src/lib/ai/volcengine-registry.test.ts src/lib/ai/providers/volcengine-seedance-role.test.ts src/lib/normalize/normalize.test.ts src/lib/understanding/cache.test.ts src/lib/understanding/understanding.test.ts src/lib/workflow/creative/creative.test.ts src/lib/workflow/generation/generation.test.ts src/lib/workflow/generation/audio/musicLibrary.test.ts src/lib/media/ffmpeg.test.ts src/lib/video/seedance-preview-tier.test.ts src/lib/video/captions.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@google/genai": "^2.24.0",
+    "dotenv": "^17.4.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "tsx": "^4.23.15",
+    "typescript": "^5"
+  }
+}
